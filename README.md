@@ -1,2 +1,2 @@
 # Estudos_Front_End
-Repositório para Estudos sobre fronte end
+Repositório para estudos sobre fronte end
