@@ -54,13 +54,71 @@
 
 // console.log(nome_do_dia);
 
-let lista = ["neto", "luis", "joão", 22, 34, true, null, undefined]
+// const lista = ["neto", "luis", "joão", 22, 34, true, null, undefined]
 
-console.log(lista[1])
-lista[1] = 2
+// console.log(lista[1])
+// lista[1] = 2
 
-console.log(lista[1])
-lista = ['a', 'q', 'w', 'z', 't']
+// console.log(lista[1])
+// //lista = ['a', 'q', 'w', 'z', 't']
 
-console.log(lista[4])
-console.log(lista.length) // informa quantos indices tem a lista 
+// console.log(lista[4])
+// console.log(lista.length) // informa quantos indices tem a lista 
+// let nome = 'iderval'
+// console.log(lista.indexOf('neto'))
+
+//Manipulação de array usando | Push | Pop | Shift | Unshift | Includes |
+
+// lista.push(22)
+// lista.pop()
+// lista.pop()
+// lista.pop()
+// lista.pop()
+// lista.pop()
+// lista.pop()
+
+// console.log(lista)
+
+//Laços de repetição | For | While | Do While |
+//iterador interavel 
+
+// for (let dia = 1; dia <= 30; dia++) {
+
+//     console.log("dia", dia)
+
+// }
+
+// let dia = 1
+// while(dia <=30){
+//     console.log("dia", dia)
+//     dia++
+// }
+
+// let dia = 1
+// do{
+
+//     console.log("dia", dia);
+//     dia++
+
+// }while(dia<=30)
+
+//Funções 
+
+// function imprimir(valor1, valor2){
+//     resultado=valor1+valor2
+//     return console.log(`${valor1} + ${valor2} =`,resultado);
+// }
+
+// imprimir(-2, 4)
+
+//hoisting = limita a partir de quanto a função pode ser chamada
+
+// const imprimir= function (impresao){
+//     console.log(impresao)
+// }
+
+// let dia = 1
+
+// imprimir(dia)
+// imprimir("ola mundo")
+
