@@ -1,0 +1,23 @@
+img {
+    border-radius: 5%;  /* Arredanda a borda */
+    border: 5px solid black; /* Coloca uma borta e define o tamanho e cor*/
+    height: 400px; /* define o tamnho da imagen pelo horizontal*/
+    filter: saturate(50%); /*saturação */
+    filter: grayscale(0); /*preto e branco */
+}
+
+div{
+    height: 300px;
+    width: 300px;
+    background-image: url(/04/img/315a9c7faac987b5c5e2e6305ae1a199.jpg);
+    /* background-size: contain; faz com que a imagen caiba no tamnho estipulado */
+    /* background-repeat: no-repeat; não repete a imagem */
+    background-size: cover; /*faz a imagem caber dentro da div*/
+    background-position: centro; 
+    /* background-position: 0 100%;  */
+    /*            horizontal vertical  */
+    border-radius: 5%;
+    border: 2px solid black
+
+
+}

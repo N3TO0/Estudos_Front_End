@@ -1,0 +1,46 @@
+h1{
+    color: ff0000;
+}
+
+.I{  
+    font-family: "Rubik", monospace; /* tipografria primaria e segundaria */
+    font-weight: 100;  /* grossura da font de 100 a 900 */
+    font-style: italic; /* stilo da fonte tipo deixar inclinada */
+    font-size: 100%; /*  tamanho da front */
+    color: blue /* cor da letra */
+    
+}
+
+section{
+    font-size: 16px
+}
+
+/*  px  = tamanho por pixel                   */
+/*  %   = tamanho por % com base elemento pai */
+/*  em  = tamnho de 1x com base elemento pai  */
+/*  rem = tamno de 1x do elemento raiz html   */
+/*  vh  = usa o tamanho da tela  no height    */
+/*  vw  = usa o tamanho da tela  no width     */
+
+.sla{
+    background-color: black;
+    height: 50vh;
+    width: 50vw;
+
+}
+
+.ex{
+    color: red;
+    text-transform: lowercase;
+/*     uppercase  : deixa tudo em maiusculo
+       lowercase  : deixa tudo em minusculo
+       capitalize : deixa apenas a primeira letra em maiusculo
+*/
+
+    text-align: center;
+/*  center= meio
+    start= inicio
+    end= final 
+*/
+
+}
