@@ -12,10 +12,13 @@
 p{
     background-color: rgb(159, 141, 167);
     width: 200px;
+    display: inline; /*Deixa todo o conteudo em uma linha*/
+    
 }
 
 span{
     background-color:  rgb(245, 67, 67);
+    display: block; /*Não Deixa todo o conteudo em uma linha, deixa em outras linhas*/
 }
 
 #inline_Block{

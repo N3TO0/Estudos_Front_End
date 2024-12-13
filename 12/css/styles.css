@@ -1,0 +1,43 @@
+* {
+    margin: 0; /*defini que todo o html começa com espaçamento externo de 0px*/
+    padding: 0; /*defini que todo o html começa com espaçamento interno de 0px*/
+}
+
+.foto_mario{
+    margin: 0 10px 20px 0;/*adiciona um espaçamento na parte fora da imagen*/
+    height: 200px; /*altura (Horizontal)*/
+   /* width: ; *//*largura (vertical)*/
+    float: left; /*desconsidera como block, e sera flutuante */
+}
+
+.noticias{
+
+   /* overflow: auto;*/ /*considera o tamnho tbm da imagen que esta dentro da div, 
+define como se comportar dentro de uma div com altura e alrgura definidos*/
+    /* width: 300px;
+    height: 100px; */
+    overflow: auto; /* como o conteudo dentro da div sobre saia com o tamanho da div, foi cirado uma barra de scroll*/
+}
+
+.logo{
+    height: 40px; /*defini o tamanho  usando apenas o lado horizontal */
+    margin-top: 10px; /* defini que o espaçamento em cima da logo é de 10px */
+    
+}
+
+nav{
+    background-color: cadetblue; /* defini a cor de fundo da nav*/
+    height:  60px; /*defini que o tamanho horizontal é de 60px da nav*/
+    padding: 0 40px; /*defini que o espaçamento dentro da nav no vertical é de 40px*/
+
+}
+
+ul{
+    float: right; /*flutua para direita*/
+}
+
+li{
+    display: inline-block;  /*colocando os intens em linha e não em coluna*/
+    line-height: 60px;  /*igualou a altura do li com a altura nav */
+    margin-right: 20px;  /*margin do lado direito de todos tem 10px agora*/
+}
