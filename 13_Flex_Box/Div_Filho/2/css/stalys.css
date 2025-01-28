@@ -1,0 +1,32 @@
+* {
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.container {
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    border: 2px solid black;
+    justify-content: space-around;
+    align-items: center;
+    /* overflow: auto;  coloca um scroll dentro da div */
+    /* flex-wrap: wrap; /* caso o item passe do espaçamento definido, ira colocar em outra linha /* */
+    /* flex-wrap: nowrap;  valor default */
+}
+
+.item {
+    background-color: tomato;
+    margin: 10px;
+    padding: 10px;
+
+}
+.i3{
+    /* align-self: flex-end;faz com que tenha reação diferente dos itens padrões */
+    order: -1; /*ordena os itens ( por default todos os itens tem posição 0 )*/
+}
+.i2{
+    /* align-self: flex-start; */
+    order: 1;
+}
