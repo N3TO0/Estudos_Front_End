@@ -2,44 +2,41 @@
 <html lang="pt-BR">
 
 <head>
-    <link rel="stylesheet" href="reset.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/Site_Pessoal/css/reset.css">
+    <link rel="stylesheet" href="/Site_Pessoal/css/styles.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sobre mim</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Site Pessoal</title>
 </head>
 
 <body>
+    <nav class="navegation">
+        <div class="div_nav1">
+            <a href="/Site_Pessoal/index.html"><img class="icon_initial" src="/Site_Pessoal/img/icon_cod2.png"
+                    alt="icon_cod"></a>
+        </div>
 
-    <nav class="navegador">
-        <div class="parte_1">
-            <img class="logo" src="img/icon1.jpeg">
-        </div>
-        <div class="parte_2">
-            <ul>
-                <li><a class="link_nav" href="index.html">Sobre mim</a></li>
-                <li><a class="link_nav" href="index_Skills.html">Skills</a></li>
-                <li><a class="link_nav" href="index_Projetos.html">Projetos</a></li>
-                <li><a class="link_nav link_nav2" href="index_Contato.html">Contato</a></li>
-            </ul>
-        </div>
+        <ul class="lista">
+            <li><a href="../index_Sobre_mim.html">Sobre mim</a></li>
+            <li><a href="../index_Skills.html">Skills</a></li>
+            <li><a href="../index_Projetos.html">Projetos</a></li>
+            <li class="li_contato"><a href="../index_Contato.html">Contatos</a></li>
+        </ul>
     </nav>
 
-    <section class="section_principal">
-        <div class="div_1"></div>
-        <div class="div_2">
-            <h1>Iderval Neto</h1>
-            <h2>Desenvolvedor Full Stack</h2>
-            <div class="botao"><img class="icone" src="img/icon2.jpeg" alt=""><a  class="curriculo" target="_blank" href="https://www.linkedin.com/in/iderval-neto/">Baixar currículo</a></a></div>
-        </div>
-    </section>  
+    <section class="section_1">
+        <div class="div_section1">
 
+        </div>
+        <div class="div_section2">
+            <div class="div_section2_filho">
+                <h1>Iderval Neto</h1>
+                <h2>Desenvolvedor Full Stack</h2>
+                <button class="button_curriculo"  onclick="window.open('https://www.linkedin.com/in/iderval-neto/','_blanck')"><img class="icon_button" src="/Site_Pessoal/img/icon_download.png"
+                        alt="icon_de_download"><p class="p_button">Baixar Curriculo</p></button>
+            </div>
+        </div>
+    </section>
 </body>
 
 </html>
