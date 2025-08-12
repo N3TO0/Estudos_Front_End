@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="stalys.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+
+<body>
+    <script src="cod.js"></script>
+
+    <form onsubmit="alert('enviado')" autocomplete="off" target="_blank" method="get" action="">
+        <h1 class="titulo">Formulario</h1>
+
+        <label for="name">Insira seu nome</label>
+        <input title="insira seu nome" type="text" class="input iname">
+
+        <label for="number">Insira seu telefone</label>
+        <input title="insira seu telefone" type="number" class="input inumber">
+
+        <label for="e-mail">Insira seu e-mail</label>
+        <input title="insira seu e-mail" type="email" class="input iemail">
+
+        <label for="date">Insira sua data de nascimento</label>
+        <input title="insira sua data de nascimento" type="date" class="input idate">
+
+        <label for="date">Escolha um arquivo</label>
+        <input title="Escolha um arquivo" type="file" multiple class="input file">
+
+        <label for="date">Marque o que se identifica</label>
+        <input title="Marque o que se identifica" type="checkbox" type="radio" name="opcional[]" value="opcao_1"
+            class="input checkbox">
+        <input title="Marque o que se identifica" type="checkbox" type="radio" name="opcional[]" value="opcao_2"
+            class="input checkbox">
+        <input title="Marque o que se identifica" type="checkbox" type="radio" name="opcional[]" value="opcao_3"
+            class="input checkbox">
+
+        <label for="date">Escolha uma opção</label>
+        <input title="Escolha uma opção" type="radio" name="borda" value="sim" class="input radio">
+        <input title="Escolha uma opção" type="radio" name="borda" value="nao" class="input radio">
+
+        <label for="date">Escolha um arquivo</label>
+        <input title="insira sua data de nascimento" type="range" multiple class="input file">
+
+        <select>
+            <option value="">Selecione uma opção</option>
+            <option value="">opcao1</option>
+            <option value="">opcao2</option>
+            <option value="">opcao3</option>
+        </select>
+
+        <label for="date">Dé sua opnião</label>
+        <textarea name="nessage" rows="10" id=""></textarea>
+
+
+        <button title="Aperte o bottão">Enviar</button>
+    </form>
+
+</body>
+
+</html>

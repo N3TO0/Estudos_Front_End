@@ -1,0 +1,62 @@
+body {
+
+    background-color: rgba(0, 0, 0, 0.76);
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: fit-content;
+    padding: 150px 0;
+    font-size: 1rem;
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+
+    h1 {
+        font-size: 2rem;
+        font-weight: 350;
+
+    }
+}
+
+form {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    height: fit-content;
+    padding: 2rem 2rem;
+    background-color: rgba(255, 255, 255, 0.678);
+    border-radius: 6px;
+
+    .input {
+        width: 20rem;
+        height: 2rem;
+        background-color: rgba(0, 0, 0, 0.171);
+        border: 0px solid;
+        border-radius: 2px;
+        color: rgb(0, 0, 0);
+        padding: 0 0 0 15px;
+
+
+    }
+
+    label {
+        margin: 40px 0 5px 0;
+    }
+    textarea{
+        width: 20rem;
+    }
+
+    button {
+        margin: 40px 0 0 0;
+        width: 20.4rem;
+        height: 2rem;
+        border: 0px solid;
+        background-color: rgba(0, 0, 0, 0.281);
+        color: rgb(0, 0, 0);
+        font-weight: 300;
+    }
+
+}
