@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    font-weight: bold;
+    text-align: center;
+    display: grid;
+    /* Asiona a funcionalidade grid */
+
+    grid-template-columns: repeat(4, 1fr);
+    /* Informo que ira ter 4 colunas na tela */
+
+    grid-template-rows: 100px repeat(3, 300px);
+    /* informo que ira ter 1 linha de 100px e 3 de 300px  */
+
+    grid-template-areas:
+        "header header header header"
+        /* Definindo que a primeira linha q tem 4 colunas, as 4 partes da primeiroa linha iram ser uma só */
+
+        "navbar main-content main-content main-content"
+        /*Definindo que a segunda linha ire tem 2 partes diferentes, 1 parte ira ser uma parte, e as outras 3 partes iram ser uma só */
+
+        "navbar content1 content2 content3"
+        /* Definindo que a terceira linha ira ter 4 partes diferentes, sendo assim nenuma junta */
+
+        "navbar foote footer footer"
+        /*Definindo que a quarta linha ira ter 2 partes diferentes, 1 parte ira ser uma parte, e as outras 3 partes iram ser uma só*/
+
+        ;
+
+}
+
+header{
+    background-color: aqua;
+    grid-area: header;
+    /* Defino a area que ele deve ocupar, puxando a informação do "grid-template-areas" ali em cima */
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav{
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    grid-area: navbar;
+    ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin: 0;
+        padding: 0;
+
+        }
+
+    li a{
+        color: black;
+    }
+}
+
+.section_main{
+    background-color: rgba(255, 0, 0, 0.426);
+    grid-area: main-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-1{
+    background-color: rgba(0, 0, 0, 0.271);
+    grid-area: content1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content-2{
+    background-color: rgba(135, 227, 96, 0.271);
+    grid-area: content2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content-3{
+    background-color: rgba(96, 53, 53, 0.271);
+    grid-area: content3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

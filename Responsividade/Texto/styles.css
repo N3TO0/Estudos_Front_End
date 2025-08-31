@@ -1,0 +1,52 @@
+.container {
+    padding-top: 50px;
+    width: 50%;
+
+    column-count: 3; 
+    /* Informa quantas colunas o texto deve ser dividido */
+
+}
+h2{
+    margin-top: 50px;
+    font-size: 23px;
+}
+
+h1{
+    font-size: 30px;
+}
+
+.container2 {
+    padding-top: 50px;
+    width: 50%;
+
+    column-width: 200px;
+    /* informa qual o tamanho que as colunas devem ter */
+    column-rule: 1px solid blue
+
+}
+
+.container3{
+    padding-top: 50px;
+    width: 50%;
+
+    column-width: 150px;
+    /* informa qual o tamanho que as colunas devem ter */
+    column-rule: 1px solid blue;
+    /* cria uma borda divisoria entre uma coluna e outraa informando o tamanho tipo e cor */
+
+}
+
+.container4{
+    padding-top: 50px;
+    width: 50%;
+
+    column-width: 350px;
+    /* informa qual o tamanho que as colunas devem ter */
+    
+    column-rule: 1px solid blue;
+    /* cria uma borda divisoria entre uma coluna e outraa informando o tamanho tipo e cor */
+
+    column-gap: 100px;
+    /* distancia de uma colula para outra */
+
+}
